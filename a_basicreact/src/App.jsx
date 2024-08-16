@@ -1,12 +1,14 @@
 import Chai from "./Chai"
 
 function App() {
-
+  // expression
+  const username = "Tea the legend"
   return (
     // fragment
       <>
       <Chai/>
-      <h1>My name is Ayush saini</h1>
+      {/* evaluated expression */}
+      <h1>My name is {username}</h1>
       </>
   )
 }
