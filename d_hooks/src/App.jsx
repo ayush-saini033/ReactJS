@@ -7,11 +7,14 @@ function App() {
 
   const addValue = () => {
     if(counter < 20){
-      counter += 1
+      // counter += 1
+      // setCounter(counter)
     // set counter set tthe new value of the counter
-    setCounter(counter)
     // it is laos possible 
     // setCounter(counter + 1)
+    // prevCounter is the last updated value of counter
+      setCounter(prevCounter => prevCounter + 1)
+      setCounter(prevCounter => prevCounter + 1)
     }
   }
 
